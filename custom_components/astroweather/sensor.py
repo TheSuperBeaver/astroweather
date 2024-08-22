@@ -507,6 +507,7 @@ class AstroWeatherSensor(AstroWeatherEntity, SensorEntity):
                     "name": dso.target_name,
                     "type": dso.type,
                     "constellation": dso.constellation,
+                    "magnitude": dso.mag,
                     "foto": dso.foto,
                 }
                 dso_list.append(obj)
